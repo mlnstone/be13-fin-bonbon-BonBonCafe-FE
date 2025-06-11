@@ -67,7 +67,7 @@ const menuGroups = computed(() => [
   {
     title: '본사',
     icon: 'mdi-office-building',
-    items: [{ title: '내 본사 정보' }],
+    items: [{ title: '본사 정보' }],
   },
   {
   title: '메뉴 관리',
@@ -83,7 +83,7 @@ const menuGroups = computed(() => [
   ].filter(Boolean), // null 제거
 },
   {
-  title: '재고&발주 관리',
+  title: '재고 관리',
   icon: 'mdi-warehouse',
   items:
     userRole.value === 'ROLE_FRANCHISEE'
@@ -155,7 +155,7 @@ const routeMap = {
   '가맹점 발주 내역': { name: 'franchise-order-list' },
   '가맹점 조회': '/franchise-list',
   '가맹점 등록': '/franchise-register',
-  '내 본사 정보': { name: 'headquarter-info' },
+  '본사 정보': { name: 'headquarter-info' },
   '본사 정보 수정': { name: 'headquarter-edit' },
   'kakao map': '/kakao-map',
   '매출 분석': '/sales-analysis',

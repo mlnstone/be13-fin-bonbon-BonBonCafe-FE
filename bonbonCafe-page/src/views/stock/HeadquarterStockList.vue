@@ -3,7 +3,7 @@
     <v-row dense>
       <v-col cols="12" md="10" offset-md="1">
         <v-card class="pa-6 elevation-2" style="min-height: 650px;">
-          <v-typography class="list" align="center">재고&발주 관리 /</v-typography>
+          <v-typography class="list" align="center">재고 관리 /</v-typography>
           <v-typography class="title" align="center">본사 재고 조회</v-typography>
 
           <br /><br />

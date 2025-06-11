@@ -5,7 +5,7 @@
         <v-card class="pa-6" elevation="2" style="width: 100%; height: 650px;">
 
           <v-typography class="list" align="center">
-            재고&발주 관리 /
+            재고 관리 /
           </v-typography>
           <v-typography class="title" align="center">
             본사 재고 상세

@@ -7,7 +7,7 @@
             본사 /
           </v-typography>
           <v-typography class="title" align="center">
-            내 본사 정보
+            본사 정보
           </v-typography>
 
           <br /><br />
@@ -24,18 +24,8 @@
             </v-col>
 
             <v-col cols="12" class="mb-3">
-              <div class="info-label">주소</div>
+              <div class="info-label">오시는 길</div>
               <div class="info-value">{{ info.roadAddress }} {{ info.detailAddress }}</div>
-            </v-col>
-
-            <v-col cols="12" class="mb-3">
-              <div class="info-label">생성일</div>
-              <div class="info-value">{{ formatDate(info.createTime) }}</div>
-            </v-col>
-
-            <v-col cols="12" class="mb-3">
-              <div class="info-label">수정일</div>
-              <div class="info-value">{{ formatDate(info.modifyAt) }}</div>
             </v-col>
 
             <v-divider class="mt-3 mb-4"></v-divider>
